@@ -1,0 +1,15 @@
+{
+  "name": "server-json",
+  "version": "1.0.0",
+  "description": "serser para pruebas json pruebas de proyectos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "json-server --watch db.json --port 3000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.0"
+  }
+}
